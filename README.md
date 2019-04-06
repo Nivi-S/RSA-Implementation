@@ -15,12 +15,12 @@ The program takes four command line arguments: a single flag –e or –d indica
 
 
 Usage:
-./genkeys.py alice
+```./genkeys.py alice```
 to generate public and private keys for alice and store it in the files alice.pub and alice.prv respectively
 
-./crypt.py -e alice.pub message.txt message.cip 
+```./crypt.py -e alice.pub message.txt message.cip```
 to encrypt the contents of message.txt using the public key and save the encryption in message.cip
 
-./crypt.py -d alice.prv message.cip message.txt 
+```./crypt.py -d alice.prv message.cip message.txt```
 to decrypt the contents of message.cip using the ptivate key and save the encryption in message.txt
 
