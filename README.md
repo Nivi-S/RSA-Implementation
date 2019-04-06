@@ -1,6 +1,6 @@
 # RSA-Implementation with AES
 
-This project implements a system that uses AES to encrypt data and RSA to protect AES keys. 
+This project implements a cryptosystem that uses AES to encrypt data and RSA to protect AES keys. 
 
 It consists of two programs one to generate the RSA Public and Private keys and another to encrypt and decrypt the data using AES. 
 
