@@ -17,8 +17,8 @@ Usage:<br/>
 <br/>to generate public and private keys for alice and store it in the files alice.pub and alice.prv respectively
 
 ```./crypt.py -e alice.pub message.txt message.cip```
-<br/>to encrypt the contents of message.txt using the public key and save the encryption in message.cip
+<br/>to encrypt the contents of message.txt using the public key and save the encrypted data in message.cip
 
 ```./crypt.py -d alice.prv message.cip message.txt```
-<br/>to decrypt the contents of message.cip using the ptivate key and save the encryption in message.txt
+<br/>to decrypt the contents of message.cip using the ptivate key and save the decrypted plaintext in message.txt
 
